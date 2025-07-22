@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.pedestrian-protection]
+path = 'contracts/pedestrian-protection.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.traffic-optimization]
 path = 'contracts/traffic-optimization.clar'
 clarity_version = 2
